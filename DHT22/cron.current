@@ -1,0 +1,2 @@
+# m h dom mon dow command
+*/10 * * * * cd /home/pi/Raspberry-Pi-Code/DHT22/ && ruby yeelink.rb >crontab.log 2>&1
